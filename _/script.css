@@ -1,0 +1,138 @@
+/*
+This is the entire of css script, it's very simple, light CSS script
+
+ID:
+Header : box-header,box-header-text
+Navigation bar : box-navbar,box-navbar-text
+Content : box-content,box-content-text
+Footer : box-footer,box-footer-text
+
+If you want to use the script, please tell me via discord
+
+*/
+
+/*		@font-face {
+		font-family: 'Perfect DOS VGA 437';
+		src: url('PerfectDOSVGA437.woff2') format('woff2'),
+		url('PerfectDOSVGA437.woff') format('woff');
+		font-weight: normal;
+		font-style: normal;
+		}
+
+
+		body{
+		position:relative;
+
+		font-family: 'Perfect DOS VGA 437';
+		font-weight: normal;
+		font-style: normal;
+		background: #041000 url('bg.png');
+		background-size: cover;
+		font-size:16px;
+		}
+*/
+
+		body{
+		position:relative;
+		font-size:16px;
+		--background-repeat: no-repeat;
+		--background-size: cover;
+		}
+
+		samp{font-size:12px;color:black;}
+		/*
+		h1{font-family:'Perfect DOS VGA 437', sans-serif;font-size:30px;}
+		h2{font-family:'Perfect DOS VGA 437', sans-serif;font-size:30px;}
+		h3{font-family:'Perfect DOS VGA 437', sans-serif;font-size:30px;}
+		h4{font-family:'Perfect DOS VGA 437', sans-serif;font-size:30px;}
+		h5{font-family:'Perfect DOS VGA 437', sans-serif;font-size:30px;}
+		h6{font-family:'Perfect DOS VGA 437', sans-serif;font-size:30px;}
+		/*
+		/*Header*/
+		#box-header{
+		position:relative;
+		-width:800px;
+		-height:80px;
+		-background: rgba(147,206,222,1);
+		font-size:14px;
+		--opacity: 0.83;
+		}
+
+		#box-header-text{
+		padding-top:10px;
+		}
+
+		/*Navbar*/
+		#box-navbar{
+		width:800px;
+		height:30px;
+		background-color:#d3d9ff;
+		}
+
+		#box-navbar-text{
+		padding-top:5px;
+		padding-left:2px;
+		}
+
+		/*Content*/
+		#box-content{
+		width:830px;
+		height:1000px;
+		background-color:grey;
+		color:white;
+		-overflow:scroll;
+		-overflow-x:hidden;
+		-opacity: 0.93;
+		}
+
+		#box-content-text{
+		padding:10px;
+		width:780px;
+		height:800px;
+		}
+
+		/*Footer*/
+		#box-footer{
+		position:relative;
+		width:800px;
+		height:70px;
+		background-color:#d5e89d;
+		color:white;
+		opacity: 0.83;
+		}
+
+		#box-footer-text{
+		position:relative;
+		width:600px;
+		height:70px;
+		padding-top:5px;
+		}
+
+		.ascii {
+		font-family: Courier;
+	  color: white;
+		font-size:8pt;
+		font-weight: bold;
+		}
+
+/*
+---------------
+Scarp
+---------------
+body
+		--background: rgb(0,119,255);
+		--background: linear-gradient(rgba(0,119,255,1) 0%, rgba(0,204,255,0.335171568627451) 100%);
+		--background-size: 3000px 1000px
+		--background-repeat: no-repeat;
+
+box-header
+		--border:1px groove;
+		--position:relative;
+box-content
+		--position:relative;
+		--background-image: url("https://nhan.heysora.net/files/img/bg_star.gif");
+		--border:2px groove;
+box-content-text
+		--padding-bottom:30px;
+		--border:2px groove;
+/*

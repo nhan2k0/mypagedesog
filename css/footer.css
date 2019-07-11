@@ -1,0 +1,8 @@
+
+	footer {
+    ---background-color: grey !important;
+    --width: 100%;
+    text-align: center;
+    color: #f3f3f3;
+    padding: 2em !important;
+	}

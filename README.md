@@ -9,3 +9,5 @@ This is my website script written by me (nhan2k0), you can also use for referenc
 
 [Font Awesome](https://fontawesome.com)
 
+For classic page, i'm use my own CSS i've made in 2018
+
